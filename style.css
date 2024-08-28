@@ -15,11 +15,13 @@ body{
 }
 
 .container{
-    background-color: purple;
     width: 400px;
     height: 500px;
     padding: 20px;
     border-radius: 20px;
+    border: 2px solid purple;
+    background: transparent;
+    backdrop-filter: blur(30px);
 }
 
 .search-bar{
