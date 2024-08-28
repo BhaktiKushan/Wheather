@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wheather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/icon.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="search-bar">
+            <i class="fa-solid fa-location-dot" id="location"></i>
+            <input type="text" placeholder="Enter your city">
+            <i class="fa-solid fa-magnifying-glass" id="search"></i>
+        </div>
+
+        <div class="main">
+            <div class="wheather-all">
+                <img id="logo-img" src="image/cloud.png">
+            </div>
+            <p id="p1">24 <samp>°C</samp> </p>
+            <p id="p2">Broken Clouds</p>
+        </div>
+
+        <div class="temp">
+            <div class="water">
+                <div class="water-logo">
+                    <i class="fa-solid fa-water"></i>
+                    <div class="per">
+                        <p>71%</p>
+                        <p id="a">Humidity</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="wind">
+                <div class="wind-logo">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="per">
+                        <p>6Km/h</p>
+                        <p id="a">Wind speed</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
