@@ -27,27 +27,15 @@ body{
 .search-bar{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 
 .search-bar #location{
     font-size: 20px;
     position: absolute;
-    margin-right: 310px;
     cursor: pointer;
-}
-
-
-.search-bar #search{
-    font-size: 20px;
-    height: 39px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    margin-left: 310px;
-    cursor: pointer;
+    margin-left: 15px;
 }
 
 
@@ -59,6 +47,16 @@ body{
     text-align: center;
     border-radius: 20px;
 }
+
+.search-bar button{
+    position: absolute;
+    font-size: 20px;
+    right: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+
 
 /* main wheather */
 
